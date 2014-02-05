@@ -1,0 +1,20 @@
+Taming of Chance
+
+========================================================
+*Joel Willers*
+*Jessica Short*
+*Sen Zhou*
+*Junzhao Hu*
+
+
+
+```{r}
+
+```
+
+You can also embed plots, for example:
+
+```{r fig.width=7, fig.height=6}
+plot(cars)
+```
+
