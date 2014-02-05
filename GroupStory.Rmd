@@ -6,7 +6,9 @@ Taming of Chance
 *Sen Zhou*
 *Junzhao Hu*
 
+It was a dark day at the ACME widget factory. A suspicious character was lurking in the corner of the huge manufacturing floor. Unknown to the employees, the stranger was ready to ruin their recent batch of widgets.
 
+Sneaking between the giant machines towering like pillars of creation, the man made an
 
 ```{r}
 
