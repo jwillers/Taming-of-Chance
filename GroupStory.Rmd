@@ -10,7 +10,7 @@ It was a dark day at the ACME widget factory. A suspicious character was lurking
 
 Sneaking between the giant machines towering like pillars of creation, the man made a small, but obvious, dent in a widget. The saboteur knew that the quality control people would catch the mistake. Without knowing about the normal curve, there was no way to determine if this widget was an outlier, and the entire batch would have to be destroyed.
 
-His job done, the man crept into the ventilation duct system to escape. He could have left through the unlocked back door, but this made him feel more like a spy, which was his childhood dream. 
+His job done, the man crept into the ventilation duct system to escape. He could have left through the unlocked back door, but this made him feel more like a spy, which was his childhood dream. Last week, he had switched the screws of the widgets. What would be his diabolical plot next week, he wondered...
 
 ```{r}
 #Joel
