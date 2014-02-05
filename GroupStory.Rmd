@@ -32,6 +32,8 @@ sc_plot<-ggplot(sc_n, aes(rnorm.10000..3..0.1.), fill = I("red")) +  geom_densit
 ```
 ```{r}
 #Junzhao
+The end
+
 ```
 You can also embed plots, for example:
 
