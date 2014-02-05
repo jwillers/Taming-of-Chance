@@ -33,7 +33,7 @@ Bob Replied: 'I'm sorry sir, we do quality control every night - I have workers 
 Mr. X insisted that Bob stay all night counting screws, after all they had recently increased production and he couldn't have quality falling off at this important time of his business. In his mind, all of the screws leaving his factory should measure 3 inches. How else could he maintain quality?
 
 #### Mr. X's idea of screw distribution, and the hidden normal
-```{r fig.width=7, fig.height=6}
+```{r fig.width=7, fig.height=6, warning=FALSE}
 sc_plot
 ```
 Bob wished there was something that could keep him from working all night counting screws. Little did he know, that there was a normal distribution behind the scenes, undiscovered. 
@@ -45,7 +45,7 @@ Bob wished there was something that could keep him from working all night counti
 #The end
 
 ```
-You can also embed plots, for example:
+
 
 
 
