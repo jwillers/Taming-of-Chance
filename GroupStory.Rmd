@@ -17,7 +17,16 @@ His job done, the man crept into the ventilation duct system to escape. He could
 ```
 ```{r}
 #Jessica
+library(ggplot2)
+sc<-rep(3,10000)
+sc_n<-data.frame(rnorm(10000,3,.1))
+sc_plot<-ggplot(sc_n, aes(rnorm.10000..3..0.1.), fill = I("red")) +  geom_density(alpha = 0.2) 
+
+
+
 ```
+'BOB!' yelled Mr. X, the manager of the plant. 'Last weeks, the screws were measured for our widgets and some were less than 2.5 inches!!'
+
 ```{r}
 #Sen
 ```
