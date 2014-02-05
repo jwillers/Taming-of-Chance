@@ -39,6 +39,8 @@ sc_plot
 Bob wished there was something that could keep him from working all night counting screws. Little did he know, that there was a normal distribution behind the scenes, undiscovered. 
 ```{r}
 #Sen
+first try
+
 ```
 ```{r}
 #Junzhao
