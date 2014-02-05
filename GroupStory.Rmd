@@ -15,7 +15,7 @@ His job done, the man crept into the ventilation duct system to escape. He could
 ```{r}
 #Joel
 ```
-```{r}
+```{r echo=FALSE, warning=FALSE}
 #Jessica
 library(ggplot2)
 sc_u<-data.frame(rep(3,1000))
@@ -26,7 +26,7 @@ sc_plot<-ggplot(sc, aes(nrm) ) +  geom_density(alpha = 0.2)
 sc_plot<-sc_plot+geom_bar(aes(x=uni))
 
 ```
-'BOB!' yelled Mr. X, the manager of the plant. 'This week, the screws were measured for our widgets and some were less than 2.5 inches!!'
+'BOB!' yelled Mr. X, the manager of the plant. 'Last week, the screws were measured for our widgets and some were less than 2.5 inches!!'
 
 Bob Replied: 'I'm sorry sir, we do quality control every night - I have workers measuring the screws on all the shifts'
 
@@ -42,12 +42,10 @@ Bob wished there was something that could keep him from working all night counti
 ```
 ```{r}
 #Junzhao
-The end
+#The end
 
 ```
 You can also embed plots, for example:
 
-```{r fig.width=7, fig.height=6}
-plot(cars)
-```
+
 
