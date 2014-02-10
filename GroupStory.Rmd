@@ -42,7 +42,7 @@ Bob wished there was something that could keep him from working all night counti
 Well, the camera catched something weird. It looks like 
 ```{r}
 #Sen
-install.packages("onion")
+#install.packages("onion")
 require(onion) 
 data(bunny) 
 p3d(bunny,theta=3,phi=104,box=FALSE)
