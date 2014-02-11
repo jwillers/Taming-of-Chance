@@ -43,7 +43,8 @@ Well, the camera catched something weird. It looks like
 ```{r echo=FALSE, warning=FALSE,cache=FALSE}
 #Sen
 #install.packages("onion")
-require(onion) 
+#require(onion) 
+library(onion)
 data(bunny) 
 p3d(bunny,theta=3,phi=104,box=FALSE)
 
