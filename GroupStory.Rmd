@@ -40,7 +40,7 @@ Bob wished there was something that could keep him from working all night counti
 
 
 Well, the camera catched something weird. It looks like 
-```{r echo=FALSE, warning=FALSE,comment=False}
+```{r echo=FALSE, warning=FALSE,comment=FALSE}
 #Sen
 #install.packages("onion")
 require(onion) 
