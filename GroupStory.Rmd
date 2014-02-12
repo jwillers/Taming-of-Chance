@@ -37,11 +37,21 @@ Mr. X insisted that Bob stay all night counting screws, after all they had recen
 sc_plot
 ```
 Bob wished there was something that could keep him from working all night counting screws. Little did he know, that there was a normal distribution behind the scenes, undiscovered. 
-```{r}
+
+
+Well, the camera catched something weird. It looks like 
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
 #Sen
-first try......abcd senzhou
+#install.packages("onion")
+#require(onion) 
+library(onion)
+data(bunny) 
+p3d(bunny,theta=3,phi=104,box=FALSE)
 
 ```
+yes, a bunny.
+
 ```{r}
 #Junzhao
 #The end....aqbc
