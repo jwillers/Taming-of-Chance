@@ -14,7 +14,7 @@ His job done, the man crept into the ventilation duct system to escape. He could
 
 ```{r}
 #Joel
-joel_var <- (1,2,3)
+joel_var <- c(1,2,3)
 ```
 ```{r echo=FALSE, warning=FALSE}
 #Jessica
@@ -24,7 +24,7 @@ sc_n<-data.frame(rnorm(10000,3,.001))
 sc<-cbind(sc_u,sc_n)
 colnames(sc)<-c('uni','nrm')
 sc_plot<-ggplot(sc, aes(nrm) ) +  geom_density(alpha = 0.2) 
-sc_plot<-sc_plot+geom_bar(aes(x=uni),binwidth=1)
+sc_plot<-sc_plot+geom_bar(aes(x=uni))
 
 ```
 'BOB!' yelled Mr. X, the manager of the plant. 'Last week, the screws were measured for our widgets and some were less than 2.5 inches!!'
