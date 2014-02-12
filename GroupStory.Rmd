@@ -37,7 +37,7 @@ Mr. X insisted that Bob stay all night counting screws, after all they had recen
 sc_plot
 ```
 Bob wished there was something that could keep him from working all night counting screws. Little did he know, that there was a normal distribution behind the scenes, undiscovered. 
-He knew that he need some knowledge about normal distribution to test the outliers of these widgets.
+He knew that he need some knowledge about normal distribution to test the outliers of these widgets,but he didn't learn quite well in this area. So he asked his friend Jim, whose is a statistics PHD student now and consulted the normal distribution. After Jim expained to him, he could examined the batch of widgets now. 
 
 Well, the camera catched something weird. It looks like 
 
