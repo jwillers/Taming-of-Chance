@@ -59,8 +59,13 @@ He knew that he need some knowledge about normal distribution to test the outlie
 He knew that the screw should be 3 inches long normally, and he calculated the 95% confidence interval[2.80,3.12], and if the length of any screw is not the this interval, he would treat it as an outlier and disgard it.After checking that, he found that there were so many outliers, and he reported this to his manager. Then they called the police, and the policemen checked the camera installed in the room.
 
 
-Well, the camera catched something weird. It looks like 
 
+
+Well, the camera did catch a guy. 
+![image](figure/spy.jpg)
+
+
+But, it also catched something weird. It looks like 
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
 #Sen
 #install.packages("onion")
@@ -78,7 +83,4 @@ yes, a bunny.
 
 
 ```
-[[/SPY/spy.jpg]]
-
-
 
