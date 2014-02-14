@@ -5,23 +5,29 @@ Taming of Chance
 *Sen Zhou*
 *Junzhao Hu*
 
-It was a dark day at the ACME widget factory. A suspicious character was lurking in the corner of the huge manufacturing floor. Unknown to the employees, the stranger was ready to ruin their recent batch of widgets.
-
-Sneaking between the giant machines towering like pillars of creation, the man made a small, but obvious, dent in a widget. The saboteur knew that the quality control people would catch the mistake. Without knowing about the normal curve, there was no way to determine if this widget was an outlier, and the entire batch would have to be destroyed.
-
-His job done, the man crept into the ventilation duct system to escape. He could have left through the unlocked back door, but this made him feel more like a spy, which was his childhood dream. Last week, he had switched the screws of the widgets. What would be his diabolical plot next week, he wondered...
 ```{r echo=FALSE}
 #Load required packages
 require(ggplot2)
 require(onion) 
 ```
+
+
+It was a dark day at the ACME widget factory. A suspicious character was lurking in the corner of the huge manufacturing floor. Unknown to the employees, the stranger was ready to ruin their recent batch of widgets.
+
+Sneaking between the giant machines towering like pillars of creation, the man made a small, but obvious, dent in a widget. The saboteur knew that the quality control people would catch the mistake. Without knowing about the normal curve, there was no way to determine if this widget was an outlier, and the entire batch would have to be destroyed.
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+#Joel
+joel_var <- data.frame(rnorm(1000,.2,.05))
+rbind(joel_var,1)
+colnames(joel_var)<-c('damage')
+ggplot(aes(damage), data = joel_var) + geom_histogram()
+
+```
+
+His job done, the man crept into the ventilation duct system to escape. He could have left through the unlocked back door, but this made him feel more like a spy, which was his childhood dream. Last week, he had switched the screws of the widgets. What would be his diabolical plot next week, he wondered...
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
 #Jes
 
-
-```{r}
-#Joel
-joel_var <- c(1,2,3)
 ```
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
 #Jessica
