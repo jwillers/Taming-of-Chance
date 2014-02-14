@@ -17,14 +17,11 @@ It was a dark day at the ACME widget factory. A suspicious character was lurking
 Sneaking between the giant machines towering like pillars of creation, the man made a small, but obvious, dent in a widget. The saboteur knew that the quality control people would catch the mistake. Without knowing about the normal curve, there was no way to determine if this widget was an outlier, and the entire batch would have to be destroyed.
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
 #Joel
-```
-```{r echo=FALSE, warning=FALSE, message=FALSE}
-#Joel
 
 joel_var <- data.frame(rnorm(1000,.4,.1))
 joel_var <- rbind(joel_var,1)
 colnames(joel_var)<-c('damage')
-ggplot(aes(damage), data = joel_var) + geom_histogram()
+ggplot(aes(damage), data = joel_var) + geom_histogram() + geom_density(color="blue",alpha = .2)
 
 ```
 
