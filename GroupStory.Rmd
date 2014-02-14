@@ -75,10 +75,10 @@ yes, a bunny.
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
 #Junzhao
 #The end....aqbc
-[[/SPY/spy.jpg]]
-test
-```
 
+
+```
+[[/SPY/spy.jpg]]
 
 
 
